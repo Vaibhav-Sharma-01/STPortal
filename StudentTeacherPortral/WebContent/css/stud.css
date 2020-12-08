@@ -1,0 +1,138 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.background{
+    background:rgba(0, 0, 0, 0.7);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+
+.nav-list{
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+}
+
+.nav-list li{
+    list-style: none;
+    padding: 35px;
+    
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-style: italic;
+}
+
+.nav-list li a:hover{
+	font-style: italic;
+	font-weight: bolder;
+	color: black;
+}
+
+.logo{
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logo img{
+    width:30%;
+    margin: 10px 10px;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {	
+    display: none;
+    position: fixed;
+    right: 0;
+    background-color: #f9f9f9;
+    min-width: 250px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+  
+.dropdown-content a:hover {background-color: #ddd;}
+  
+.dropdown:hover .dropdown-content {display: block;}
+  
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px;
+    background-color:#e3eef5;
+}
+
+.pname{
+    margin: 56px 0px;
+    font-style: italic;
+}
+.sec1{
+    display: flex;
+    margin-left: 30%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.logimg{
+    margin-right: -30%;
+}
+.logimg img{
+    width: 40%;
+}
+.heading{
+    font-style: italic;
+}
+.sec2{
+    display: flex;
+    background-color: #e3eef5;
+    margin: 0px 30px;
+    padding: 10px 20px;
+}
+.box{
+    background-color: rgb(101 205 202 / 35%);
+    width: 50%;
+    margin: 5px 5px;
+}
+.box img{
+    width: 310px;
+    margin: 18px 158px;
+    display: block;
+}
+.subname{
+    display: block;
+    margin: 14px 230px;
+}
+.text-footer{
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
